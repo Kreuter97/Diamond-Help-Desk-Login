@@ -46,7 +46,7 @@
     <br>
 
     <fieldset class="pure-group">
-      <label for="name">Name: </label>
+      <label for="name">Name: *</label>
       <input id="name" name="name" placeholder="First Last" />
     </fieldset>
       
@@ -57,10 +57,10 @@
       <span id="email-invalid" style="visibility:hidden">
         Must be a valid email address</span>
     </fieldset>
-      
+	  
     <fieldset class="pure-group">
-      <label for="Department">Department: *</label>
-      <input id="name" name="name" placeholder="Department" />
+      <label for="Building">Building: *</label>
+      <input id="Building" name="Building" placeholder="Building" />
     </fieldset>
 	  
 	<fieldset class="pure-group">
@@ -86,7 +86,6 @@
     </fieldset>
       
     <fieldset class="pure-group">
-     
 	<label>Problem: *</label>
          <select name="Problem" onChange="changeProblem(this.options[selectedIndex].value);">
          <option value="na">Problem</option>
@@ -100,7 +99,7 @@
 	</fieldset>
  
      <fieldset class="pure-group">
-	 <label>Software Problem:</label>
+	 <label>Software Problem: </label>
 	 <select name="Software Problem" onChange="changeSoftwareProblem(this.options[selectedIndex].value);">
          <option value="na">NA</option>
          <option value="Access">Access</option>
